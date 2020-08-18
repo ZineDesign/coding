@@ -1,0 +1,488 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/* Header */
+
+header {
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu, .logo {
+    height: 50%;
+}
+
+.cart {
+    height: 60%;
+}
+
+.logo {
+    margin-top: 5px;
+}
+
+.searchbar {
+    width: 40%;
+    display: flex;
+}
+
+.searchbar input[type=text] {
+    padding: 6px;
+    border: none;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    width: 100%;
+}
+
+.searchbar button {
+    width: 10%;
+    height: 36px;
+    border: none;
+    background: #F3A847;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: -10%;
+}
+  
+.searchbar button:hover {
+    background:#A35C00;
+}
+
+.header_text {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.name {
+    font-weight: normal;
+}
+
+.cart_text {
+    margin-left: -30px;
+    margin-top: 30px;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.footer_title {
+    color: #FF8001;
+    font-weight: bold;
+    font-family: "Playfair Display";
+}
+
+
+.footer_line {
+    width: 100%;
+}
+
+ul {
+    list-style-type:none
+}
+
+.footer_items {
+    font-family: 'Roboto';
+    font-size: 12px;
+    padding: 0px;
+}
+
+.footer_bottom {
+    height: 120px;
+    background-color: black;
+    width: 100%;
+}
+
+.footer_options {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer_options img, .footer_options p {
+    float: left;
+}
+
+.footer_options img {
+    width: 30px;
+}
+
+.footer_options p {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 10px;
+    vertical-align: text-bottom;
+    margin-top: 15px;
+    margin-left: -3px;
+}
+
+.copyright {
+    margin-top: 70px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 6px;
+    text-align: right;
+    vertical-align: text-bottom;
+}
+
+/* Amazon Explorer */
+.AeTitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 120px;
+    letter-spacing: 40px;
+    text-align: center;
+}
+
+.AeTitle p{
+    margin-bottom: 0px;
+}
+
+.Explorer {
+    font-weight: 100;
+    font-size: 56px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.Explorer p{
+    margin-top: 0px;
+}
+
+/* Upper Case */
+.UpperCase {
+    text-transform: uppercase;
+}
+
+/* Orange Color */
+.Orange {
+    color: #FF9900;
+}
+
+/* Categories */
+.RBB20{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.CategoryItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CategoryImage img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    object-fit: cover;
+}
+
+.Categories p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+/* Magazine */
+#Magazine {
+    display: grid;
+    height: 90vh;
+    margin: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr 2fr;
+    grid-template-areas: 
+    "Fitness Fitness Fitness Desk Desk Desk"
+    "Travel Travel Fashion Fashion Mask Mask"
+    ;
+}
+
+.MagazineArea {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    position: relative;
+}
+
+#Fitness{
+    grid-area: Fitness;
+    background-image: url(images/fitness.jpg);
+}
+
+#Desk {
+    grid-area: Desk;
+    background-image: url(images/desk.jpg);
+}
+
+#Travel{
+    grid-area: Travel;
+    background-image: url(images/travel.jpg);
+}
+
+#Fashion{
+    grid-area: Fashion;
+    background-image: url(images/wfashion2@2x.png);
+}
+
+#Mask{
+    grid-area: Mask;
+    background-image: url(images/mask.jpg);
+}
+
+
+#HomeFit {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 40%;
+    padding: 20px 30px;
+}
+
+#Magazine p {
+    margin: 0;
+    line-height: normal;
+    line-height: 100%;
+}
+
+.PR55W {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.ShopNowWhite {
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px 30px;
+}
+
+.WhiteText {
+    color: #fff;
+}
+
+.PinkText {
+    color: #E200FF;
+}
+
+.AlignTextRight{
+    text-align: right;
+}
+
+.FloatRight {
+    float: right;
+}
+
+#DeskOrg {
+    background-color: transparent;
+    position: absolute;
+    padding: 20px 30px;
+}
+
+.ShopNowBlack {
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #000;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8px 30px;
+}
+
+#TravelEss {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    padding: 20px 30px;
+    top: 10px;
+    right: 0;
+}
+
+
+#WomenFashion{
+    background-color: transparent;
+    position: absolute;
+    padding: 20px 30px;
+}
+
+#FaceMask {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    padding: 20px 30px;
+}
+
+.TextPadBelow {
+    padding-bottom: 10px;
+}
+
+/* Summertime section */
+
+.summertimeHeadline {
+    font-family: 'Playfair Display';
+    color: #FF8001;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.st_header {
+    font-family: 'Roboto';
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: -15px;
+}
+
+.st_options {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.st_options button{
+    border: none;
+    background-color: #A9A8A8;
+    color: white;
+    padding: 5px 15px;
+    margin-right: 10px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.st_options button:hover{
+    background-color: #FF8001;
+}
+
+#chosen_option {
+    background-color: #FF8001;
+}
+
+.explore {
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: blue;
+    text-decoration: underline;
+    float: right;
+}
+
+.like_icon {
+    position: relative;
+    top: -100px;
+    right: -80px;
+    margin-bottom: -200px;
+}
+
+.checked {
+    color: orange;
+}
+
+.fa-star {
+    float: left;
+    margin-right: 3px;
+}
+
+.review_number {
+    margin-left: 3px;
+    margin-bottom: 3px;
+    float: left;
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #77838F;
+}
+
+.product_price {
+    font-family: 'Roboto';
+    color:  #77838F;
+    font-size: 22px;
+}
+
+.product_card {
+    float: left;
+    border: none;
+    width: 12rem;
+}
+
+.product_card:hover{
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-body {
+    padding: 0px;
+    padding-top: 10px;
+}
+
+.card-text {
+    clear: both;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.row {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    clear: both;
+}
+
+.pink_divider {
+    position: relative;
+}
+
+.pink_divider img {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.pink_divider_text {
+    color: white;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    position: relative;
+    bottom: 220px;
+    left: 70px;
+}
+
+/* Lists section */
+
+.list_header {
+    font-family: 'Playfair Display';
+    font-size: 40px;
+}
+
+.left_override {
+    float: none;
+}
+
+.product_list {
+    margin-top: 100px;
+}
+
+
+
+
+

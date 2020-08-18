@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="198.94" height="198.94" viewBox="0 0 198.94 198.94">
+  <defs>
+    <filter id="Oval" x="0" y="0" width="198.94" height="198.94" filterUnits="userSpaceOnUse">
+      <feOffset dy="16" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="24" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Like_Icon" data-name="Like Icon" transform="translate(72 56)">
+    <g transform="matrix(1, 0, 0, 1, -72, -56)" filter="url(#Oval)">
+      <circle id="Oval-2" data-name="Oval" cx="27.47" cy="27.47" r="27.47" transform="translate(72 56)" fill="#fff"/>
+    </g>
+    <path id="Shape" d="M20.172,1.685a5.751,5.751,0,0,0-8.135,0L10.929,2.794,9.82,1.685A5.753,5.753,0,0,0,1.685,9.821l1.108,1.108,8.135,8.135,8.135-8.135,1.108-1.108a5.751,5.751,0,0,0,0-8.135Z" transform="translate(16.482 18.313)" fill="gray"/>
+  </g>
+</svg>
