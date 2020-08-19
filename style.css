@@ -464,7 +464,7 @@ ul {
     font-size: 40px;
     position: relative;
     bottom: 220px;
-    left: 70px;
+    padding-left: 70px;
 }
 
 /* Lists section */
